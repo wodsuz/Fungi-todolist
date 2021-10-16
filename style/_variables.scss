@@ -1,0 +1,71 @@
+// Coloring
+$backgroundcolors: #ffafbd  ,#ffc3a0
+,#2193b0  ,#6dd5ed
+,#cc2b5e  ,#753a88
+,#ee9ca7  ,#ffdde1
+,#42275a  ,#734b6d
+,#bdc3c7  ,#2c3e50
+,#de6262  ,#ffb88c
+,#06beb6  ,#48b1bf
+,#eb3349  ,#f45c43
+,#dd5e89  ,#f7bb97
+,#aa076b  ,#61045f
+,#ff9966  ,#ff5e62
+,#2b5876  ,#4e4376
+,#ed4264  ,#ffedbc
+,#ff7e5f  ,#feb47b
+,#0a142783  ,#243b55
+,#c33764  ,#1d2671
+,#36d1dc  ,#5b86e5
+,#ff5f6d  ,#ffc371
+,#4ca1af  ,#c4e0e5
+,#3a1c71  ,#ffaf7b
+,#ffd89b  ,#19547b
+,#ec6f66  ,#f3a183
+,#4568dc  ,#b06ab3  
+,#ff512f  ,#dd2476
+,#ba5370  ,#f4e2d8
+,#43cea2  ,#185a9d
+,#7b4397  ,#dc2430
+,#ddd6f3  ,#faaca8
+,#000428  ,#004e92
+,#d66d75  ,#e29587
+,#02aab0  ,#00cdac
+,#eacda3  ,#d6ae7b
+,#eecda3  ,#ef629f
+,#614385  ,#516395
+,#56ab2f  ,#a8e063;
+$rndnum: random(length($backgroundcolors));
+
+$textcolors: #5A352A,#5EB1BF, #DEE7E7, #EDEEC0, #ABDAE1;
+$buttononecolor: #A33B20,#54F2F2, #B7ADCF , #7C9082, #A3B9C9 ;
+$buttontwocolor: #A47963,#FCFCFC, #4F646F, #D0C88E, #A09CB0 ;
+
+//icon background color
+$purple: nth($backgroundcolors,$rndnum);
+// 2 background colors for mixing
+$firstbgcolor:#020024;
+$secbgcolor:#497BE8;
+// delete icon color
+$primaryBtn: #e74c3c;
+// text color white/black
+// $textColor: #f2f2f2;
+$textdark: rgba(68, 65, 65, 0.979);
+// popup color 
+$textbck:  #f2f2f2; //  #635b5bb7;
+// darker list background color
+$listbackgrn:  #f0e4e4b7;
+
+
+$header_fontsize: 20px;
+$med_fontsize: 17px;
+$small_fontsize: 15px;
+
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+// $fontfam: 'Ephesis', cursive;
+
+$fontfam: 'Raleway', sans-serif;
+
