@@ -1,4 +1,3 @@
-      
 const inputBox = document.querySelector(".inputField input");
 const addBtn = document.querySelector(".inputField button");
 const todoList = document.querySelector(".todoList");
@@ -95,6 +94,9 @@ document.getElementById("result").innerHTML = "🎨(" + angle + "deg, " + newCol
 }
 
 function bwtheme (decider) {
+  if (localStorage.getItem("themepick") === null) {
+    localStorage.setItem('themepick', "white")
+  }
   var theme_Text = (themechange_button.className).length;
   var all_text = document.getElementsByName('text'); // header, nav texts
   var lists = document.getElementsByTagName('li') // to do list elements
@@ -163,6 +165,9 @@ function bwtheme (decider) {
 }
 
 function change_font (decider) {
+  if (localStorage.getItem("savedfont") === null) {
+    localStorage.setItem('savedfont', "Epilogue")
+  }
   var current_font = localStorage.getItem("savedfont")
   if (decider>0) {
      selected = current_font;
@@ -190,6 +195,9 @@ function change_font (decider) {
 }
 
 function info_Text(decider) {
+  if (localStorage.getItem("infotsit") === null) {
+    localStorage.setItem('infotsit', "false")
+  }
   var x = document.getElementById("result");
   var y = document.getElementById("font_view_text");
   var info_situ = localStorage.getItem("infotsit")
@@ -215,6 +223,9 @@ function lang_chn(decider) {
   var all_text = document.getElementsByName('text'); // header, nav texts
   var all_items = document.getElementsByName('a'); // buttons
   var todofield = document.getElementById('todof'); // todo enter field
+  if (localStorage.getItem("langsel") === null) {
+    localStorage.setItem('langsel', -1)
+  }
   if (decider<1) {var current_language = parseInt(localStorage.getItem("langsel"))+1;}
   else {var current_language = parseInt(localStorage.getItem("langsel"));}
 
