@@ -23,6 +23,7 @@
    </ul>
 Screenshots
 ![resim](https://user-images.githubusercontent.com/34207598/137604845-61ba81fc-b955-44cd-8154-a11fee2d4766.png)
+![2](https://user-images.githubusercontent.com/34207598/137604863-12f4e6a7-7964-4213-8a43-da3003e2edd9.png)
 
 Contact:
 <ul>
