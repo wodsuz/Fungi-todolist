@@ -22,6 +22,7 @@
   <li>  Scrolling ability for more than 7 items  </li>
    </ul>
 Screenshots
+![resim](https://user-images.githubusercontent.com/34207598/137604845-61ba81fc-b955-44cd-8154-a11fee2d4766.png)
 
 Contact:
 <ul>
