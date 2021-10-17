@@ -1,6 +1,7 @@
-# Fungi-todolist
-![resim](https://user-images.githubusercontent.com/34207598/137604978-6268ba6f-bf24-4ea7-ad72-d6bc94f535b3.png)
-
+# Fungi-To-do list 
+## https://wodsuz.github.io/Fungi-todolist/
+![resim](https://user-images.githubusercontent.com/34207598/137604978-6268ba6f-bf24-4ea7-ad72-d6bc94f535b3.png) <br>
+ Website to check: https://wodsuz.github.io/Fungi-todolist/ <br>
  Fungi is a minimalistic sleek style to do list application for both web and mobile platforms. It has several features including but not limited to, unlimited theme options, black & white designs, 20 font style and 4 different languages. It's mainly made for displaying my front-end skills on my portfolio. Thanks for your interest! <br>
 <p> Written in, </p>
  <ul>
@@ -24,8 +25,6 @@
   <li>  Scrolling ability for more than 7 items  </li>
    </ul>
 Screenshots
-![resim](https://user-images.githubusercontent.com/34207598/137604956-b8b6cd8c-abed-476b-9112-160c6fa234d6.png)
-
 ![image](https://user-images.githubusercontent.com/34207598/137604925-9238bfb6-703c-4000-a8c1-a0afe8eaeecf.png)
 
 ![resim](https://user-images.githubusercontent.com/34207598/137604940-664c50ea-93aa-4b1a-8f5e-2dc42d610f9f.png)
@@ -54,4 +53,5 @@ Contact:
  <li> Ongun Demirag - 2021  </li> 
  <li> www.ongundemirag.com </li> 
  <li>  www.linkedin.com/in/ongun-demirag </li> 
+ <li> Email: ongun.demirag@gmail.com </li>
  </ul>
